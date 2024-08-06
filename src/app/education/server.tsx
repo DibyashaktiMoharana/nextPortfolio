@@ -1,7 +1,6 @@
 "use client"
 import { motion, AnimatePresence } from "framer-motion";
 import ExperienceItem from "../ui/experience-item";
-import { CertificationCard } from "./ui/CertificationCard";
 import EducationItem from "./content/EducationItem";
 
 const pageVariants = {
