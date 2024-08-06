@@ -1,42 +1,42 @@
 export const projectsData = [
     {
-        image: "/projects/liquideath.webp",
-        title: "Liquid Death",
-        description: "Landing page inspirada en la empresa Liquid Death.",
-        githubUrl: "https://github.com/oriolmontcreus/liquideath",
-        previewUrl: "https://liquideath-omc.vercel.app/"
+        image: "/projects/acmone.png",
+        title: "ACMOne App",
+        description: "One App for all ACM-VIT services, events and resources.",
+        githubUrl: "https://github.com/ACM-VIT",
+        previewUrl: "https://play.google.com/store/apps/details?id=com.acmvit.acmone&hl=en-IN/"
     },
     {
-        image: "/projects/armify.webp",
-        title: "Armify",
-        description: "Landing page sobre Armify, una empresa inventada sobre brazos industriales.",
-        githubUrl: "https://github.com/oriolmontcreus/armify-landing",
-        previewUrl: "https://armify.vercel.app/"
+        image: "/projects/cms.png",
+        title: "CMS Website",
+        description: "A Complaint Management System API and frontend scripts for efficient complaint handling and report generation.",
+        githubUrl: "https://github.com/DibyashaktiMoharana/ComplaintManagementSystem-Dibya"
+        // add the deployed link deploy it to vercel or something the node backend application then update the urls
     },
     {
-        image: "/projects/vistaqs.webp",
-        title: "VistaQs",
-        description: "Gestión eficiente de encuestas con creación, distribución y análisis.",
-        githubUrl: "https://github.com/oriolmontcreus/vistaQS"
+        image: "/projects/dmusik.png",
+        title: "Dmusik",
+        description: "A personalized web music player with a curated playlists and no ads!",
+        githubUrl: "https://github.com/DibyashaktiMoharana/Dmusik",
+        previewUrl: "https://dibyashaktimoharana.github.io/Dmusik/"
     },
     {
-        image: "/projects/sound-sanbox.webp",
-        title: "Audio Sandbox",
-        description: "Experimenta con música mediante un drumpad y mezclador sencillo.",
-        githubUrl: "https://github.com/oriolmontcreus/vanilla-audio-sandbox",
-        previewUrl: "https://oriolmontcreus.github.io/vanilla-audio-sandbox/"
+        image: "/projects/auth.png",
+        title: "Custom OpenID Server",
+        description: "A mircroservice based authentication system with OpenID Connect.Developed using Golang",
+        githubUrl: "https://github.com/DibyashaktiMoharana/custom-openid-server"
     },
     {
-        image: "/projects/vscode-extension.webp",
-        title: "Ext. VS Code",
-        description: "Gestiona rutas de imágenes en proyectos con esta extensión para VS Code.",
-        githubUrl: "https://github.com/oriolmontcreus/imagepatheditor-vsce"
+        image: "/projects/gesturecontrol.png",
+        title: "Gesture Control",
+        description: "Using OpenCV and MediaPipe to detect hand gestures and control the brightness of the screen(s) using finger gestures.",
+        githubUrl: "https://github.com/DibyashaktiMoharana/gesturecontrol",
     },
     {
-        image: "/projects/dragndrop.webp",
-        title: "DragNDrop",
-        description: "Organiza listas interactivamente con esta herramienta de arrastrar y soltar.",
-        githubUrl: "https://github.com/oriolmontcreus/simple-dragNdrop",
-        previewUrl: "https://oriolmontcreus.github.io/simple-dragNdrop/"
+        image: "/projects/parallex.png",
+        title: "Parallax Website",
+        description: "A simple landing page with parallax effect using HTML, CSS and JS.",
+        githubUrl: "https://github.com/DibyashaktiMoharana/ParallaxWebsite",
+        previewUrl: "https://dibyashaktimoharana.github.io/ParallaxWebsite/"
     }
 ];
