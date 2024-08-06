@@ -20,7 +20,7 @@ export const SectionCard = ({
   return (
     <div
       className={cn(
-        "flex flex-wrap justify-start py-10 w-full",
+        "flex flex-wrap justify-between py-10 w-full",
         className
       )}
     >

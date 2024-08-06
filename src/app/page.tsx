@@ -40,7 +40,7 @@ const HomePage = () => {
             className="text-2xl px-4 md:text-4xl lg:text-1xl font-bold text-neutral-700 dark:text-white max-w-2xl leading-relaxed lg:leading-snug text-center mx-auto whitespace-nowrap"
           >
             Hey
-            There I'm{" "}<br/>
+            There I{"'"}m{" "}<br/>
             <Highlight className="text-black dark:text-white">
                Dibyashakti
             </Highlight>
@@ -68,7 +68,7 @@ const HomePage = () => {
                 <HoverBorderGradient
                   containerClassName="rounded-full"
                   as="button"
-                  className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2 !important"
+                  className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
                   onClick={handleLinkedInClick}
                 >
                   <LinkedInLogo />
