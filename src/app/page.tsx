@@ -22,7 +22,7 @@ const HomePage = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-screen dark max-w-xl mx-auto">
-      <div className="w-full flex flex-row justify-start items-center mt-4 flex-wrap">
+      <div className="w-full flex flex-row justify-between items-center mt-4 flex-wrap">
         <div>
           <motion.h1
             initial={{
@@ -42,7 +42,7 @@ const HomePage = () => {
             Hey
             There I'm{" "}<br/>
             <Highlight className="text-black dark:text-white">
-               Dibyashakti Moharana
+               Dibyashakti
             </Highlight>
           </motion.h1>
         </div>
