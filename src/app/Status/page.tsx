@@ -23,9 +23,7 @@ import React, { useState } from "react";
 //     className?: string;
 //   }
   
-  const Statuspage = ({ className = ""
-  }) => {
-   
+const Statuspage: React.FC<{ className?: string }> = ({ className = "" }) => {
     return (
       <div>
         <span
