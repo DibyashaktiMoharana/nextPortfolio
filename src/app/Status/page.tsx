@@ -25,7 +25,7 @@ import React, { useState } from "react";
   
   const Statuspage: React.FC<StatuspageProps> = ({
     className,
-  }) => {
+  }: StatuspageProps) => {
    
     return (
       <div>
