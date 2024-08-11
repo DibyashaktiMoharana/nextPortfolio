@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const Status = [
   {
     Available: {
-      name: "Available for work",
+      name: "Completed",
       color: "lime",
     },
     NotAvailable: {
