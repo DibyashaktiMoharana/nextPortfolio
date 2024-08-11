@@ -18,14 +18,13 @@ import React, { useState } from "react";
 //   },
 // ];
 
-  // Define the props for the Statuspage component
-  interface StatuspageProps {
-    className?: string;
-  }
+//   // Define the props for the Statuspage component
+//   interface StatuspageProps {
+//     className?: string;
+//   }
   
-  const Statuspage: React.FC<StatuspageProps> = ({
-    className,
-  }: StatuspageProps) => {
+  const Statuspage = ({ className = ""
+  }) => {
    
     return (
       <div>
