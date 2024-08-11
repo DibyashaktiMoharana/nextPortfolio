@@ -1,63 +1,35 @@
 export const DEVELOPER_EXPERIENCES = [
   {
-    date: "Noviembre 2023 - Actualidad",
-    title: "Desarrollador de Software - Irontech Group",
+    date: "June 2024 - July 2024",
+    title: "Software Developer Intern - Indian Railways",
     description:
-      "Responsable de la creación y actualización de herramientas web internas, mejorando la eficiencia y productividad de la empresa. Mis tareas incluyen el diseño y desarrollo de interfaces de usuario, la implementación de nuevas funcionalidades y la resolución de problemas técnicos para garantizar un rendimiento óptimo.",
-    imageUrl: "/ExperienceLogos/irontech-whitebg.webp",
+      "Implemented efficient solutions, resulting in a 45% improvement in complaint management systems. Led team of 12 to deliver new customer support system; system has led to the resolution of 100+ customer tickets",
+    imageUrl: "/ExperienceLogos/railways.png",
     hideTimeline: true
   },
 ];
 
 export const OTHER_EXPERIENCES = [
   {
-    date: "Julio 2023 - Agosto 2023",
-    title: "Cartero / Repartidor motarizado - Correos",
+    date: "July 2024 - Present",
+    title: "Web Developer - ACM-VIT",
     description:
-      "Elaborar rutas de reparto, organizar y distribuir correo ordinario, votos por correo, paquetería y correo certificado en las zonas de Bonmatí, Sant Julià de Llor, Osor, La Cellera de Ter, Anglès y Vidreres.",
-    imageUrl: "/ExperienceLogos/correos.webp",
+      "Engineered robust backend systems for university chapter projects, optimizing database interactions and integrating APIs to enhance functionality. Collaborated with cross-functional teams to deliver scalable, high-quality solutions that streamlined operations and boosted member engagement.",
+    imageUrl: "/ExperienceLogos/acm.png",
     isHeadItem: true,
   },
   {
-    date: "Temporada Junio 2023",
-    title: "Dependiente de Tienda de Pirotécnia - PetardosCM",
+    date: "July 2023- July 2024",
+    title: "Core Member (Web Domain)- ISTE-VIT",
     description:
-      "Atender a los clientes, llevar a cabo el control de inventario y mantener la limpieza en el área de trabajo.",
-    imageUrl: "/ExperienceLogos/petardoscm.webp",
+      "Developed and contributed in multiple projects and events, led a team of 5 to deliver a microservice based authentication system with OpenID Connect.",
+    imageUrl: "/ExperienceLogos/iste.png",
   },
   {
-    date: "Abril 2023 - Junio 2023",
-    title: "Operario UHT (Contrato ETT) - Làctia Agroalimentària SL",
+    date: "October 2023",
+    title: "Open Source collaborator, Hacktoberfest",
     description:
-      "Realizar control de calidad en los envases de leche, compactar y reciclar aquellos defectuosos, transportar palés utilizando una transpaleta eléctrica, y llevar a cabo la limpieza de la maquinaria",
-    imageUrl: "/ExperienceLogos/lactia.webp",
-  },
-  {
-    date: "Mayo 2023",
-    title: "Mozo de almacén (Contrato ETT) - Trace Logistics Fluidra",
-    description:
-      "Descargar camiones, clasificar y organizar productos, paletizar y asegurar con flejes, etiquetar adecuadamente y mantener la limpieza en el área de trabajo.",
-    imageUrl: "/ExperienceLogos/tracelogistics.webp",
-  },
-  {
-    date: "Abril 2023 - Mayo 2023",
-    title: "Auxiliar de Taller (Contrato ETT) - Rotimpres",
-    description:
-      "Encargado de flejar paquetes, gestionar y organizar pedidos, así como mantener la limpieza de las máquinas.",
-    imageUrl: "/ExperienceLogos/rotimpres.webp",
-  },
-  {
-    date: "Abril 2023",
-    title: "Auxiliar de Taller (Contrato ETT) - Granja San Francisco SL",
-    description:
-      "Manejo y disposición manual de envases para pastelitos y miel, inspección visual para el control de calidad del producto, y mantenimiento de la limpieza en la maquinaria.",
-    imageUrl: "/ExperienceLogos/granja-san-francisco.webp",
-  },
-  {
-    date: "Junio 2020 - Septiembre 2020",
-    title: "Camarero - Blue Bar",
-    description:
-      "Camarero en el bar/restaurante de la Piscina Municipal de Bescanó. Gestión básica de inventario, mantenimiento de la limpieza de las instalaciones y seguir las medidas contra el COVID-19",
-    imageUrl: "/ExperienceLogos/bescano-townhall-shield.webp",
+      "Engineered enhancements to multiple projects improving application performance metrics by 30%, benefiting an active user base of 5,000+ developers. Resolved over 10+ issues across various repositories, enhancing the functionality and performance of community-driven projects.",
+    imageUrl: "/ExperienceLogos/hacktober.png",
   },
 ];

@@ -39,7 +39,7 @@ const ServerContent = ({ developerExperiences, otherExperiences }: { developerEx
     ))}
     <motion.div className="my-6 border-t border-gray-200 dark:border-gray-700 text-center relative" variants={itemVariants}>
       <span className="absolute left-0 right-0 top-4 -translate-y-1/2 text-gray-500 font-semibold">
-        Roles en otros campos
+        Other Roles
       </span>
     </motion.div>
     {otherExperiences.map((experience, index) => (

@@ -38,5 +38,6 @@ export const projectsData = [
         description: "A simple landing page with parallax effect using HTML, CSS and JS.",
         githubUrl: "https://github.com/DibyashaktiMoharana/ParallaxWebsite",
         previewUrl: "https://dibyashaktimoharana.github.io/ParallaxWebsite/"
+        // add loader content and some functionality to the logos and stuff
     }
 ];
