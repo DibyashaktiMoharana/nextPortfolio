@@ -32,8 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, gi
           <p className="mb-4">{description}</p>
         </div>
         <Status
-          Relaxing
-          className="border rounded-full dark:border-neutral-700 px-2 py-1 mb-5" isAvailable={true}/>
+          className="border rounded-full dark:border-neutral-700 px-2 py-1 mb-5"/>
         <div className="flex flex-nowrap gap-2">
           <IconButton href={previewUrl} className="hover:bg-gray-900 hover:border-gray-900" disabled={!previewUrl}>
             <ExternalLinkIcon /> Preview
