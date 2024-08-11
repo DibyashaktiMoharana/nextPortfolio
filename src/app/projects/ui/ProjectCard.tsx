@@ -41,6 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, gi
           <span
             className="absolute flex w-2 h-2 rounded-full opacity-75 animate-ping bg-lime-400"
           ></span>
+          {/* color bg-lime-400 diya hai */}
           <span
             className="relative flex w-1 h-1 rounded-full bg-lime-400"
           ></span>
@@ -48,6 +49,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, gi
 
         {/* shows status name */}
         <span className="dark:text-neutral-500">Completed</span>
+        {/* ye text hai completed ka */}
       </span>
     </div>
 
