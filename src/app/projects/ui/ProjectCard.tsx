@@ -1,6 +1,7 @@
 import React from 'react';
 import IconButton from '../../ui/IconButton';
 import Image from 'next/image';
+import Status from "@/app/Status/page";
 
 import ExternalLinkIcon from '@/app/ui/icons/ExternalLinkIcon';
 import GitHubIcon from '@/app/ui/icons/GithubIcon';
@@ -30,6 +31,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, description, gi
           <h2 className="font-bold text-xl mb-2">{title}</h2>
           <p className="mb-4">{description}</p>
         </div>
+        <Status
+          Relaxing
+          className="border rounded-full dark:border-neutral-700 px-2 py-1 mb-5" isAvailable={true}/>
         <div className="flex flex-nowrap gap-2">
           <IconButton href={previewUrl} className="hover:bg-gray-900 hover:border-gray-900" disabled={!previewUrl}>
             <ExternalLinkIcon /> Preview
